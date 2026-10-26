@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900">
+  <rect width="1600" height="900" fill="#ececec"/>
+  <rect x="24" y="24" width="1552" height="852" fill="none" stroke="#b5b5b5" stroke-width="3" stroke-dasharray="14 10"/>
+  <text x="800" y="440" text-anchor="middle" font-family="monospace" font-size="52" font-weight="700" fill="#888">Hero image</text>
+  <text x="800" y="500" text-anchor="middle" font-family="monospace" font-size="28" fill="#999">16 : 9 — e.g. 1600 × 900 px</text>
+</svg>

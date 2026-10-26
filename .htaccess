@@ -1,0 +1,25 @@
+# Settings for Apache web servers (used by most cheap hosting plans).
+# If your host uses something else, this file is simply ignored.
+
+# Don't list folder contents
+Options -Indexes
+
+# Old WordPress addresses -> new ones, so existing links keep working
+Redirect 301 /43-2/ /contact/
+
+# Always use https and the www. address (same as the old site).
+# Uncomment these lines once HTTPS is set up on the new host.
+# RewriteEngine On
+# RewriteCond %{HTTPS} off [OR]
+# RewriteCond %{HTTP_HOST} !^www\. [NC]
+# RewriteRule ^ https://www.irenezanardi.com%{REQUEST_URI} [L,R=301]
+
+# Let browsers cache images and fonts for a month, CSS/JS for a week
+<IfModule mod_expires.c>
+  ExpiresActive On
+  ExpiresByType image/png "access plus 1 month"
+  ExpiresByType font/woff2 "access plus 1 month"
+  ExpiresByType text/css "access plus 1 week"
+  ExpiresByType application/javascript "access plus 1 week"
+  ExpiresByType text/javascript "access plus 1 week"
+</IfModule>

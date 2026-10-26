@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>irenezanardi.com – Personal webpage</title>
+  <meta name="description" content="Irene Zanardi – Researcher and Interaction Designer, PhD student at Università della Svizzera italiana (USI).">
+  <link rel="icon" href="assets/img/favicon-32.png" sizes="32x32">
+  <link rel="icon" href="assets/img/favicon-192.png" sizes="192x192">
+  <link rel="apple-touch-icon" href="assets/img/apple-touch-icon.png">
+  <link rel="preload" href="assets/fonts/SpaceMono-Bold.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="assets/css/style.css">
+  <script src="assets/js/main.js" defer></script>
+</head>
+<body class="home">
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <!-- ===== Header (same on every page) ===== -->
+  <header class="site-header">
+    <div class="site-header__inner">
+      <a class="site-logo" href="./" aria-current="page"><img src="assets/img/logo.png" width="40" height="20" alt="irenezanardi.com"></a>
+      <nav class="nav" aria-label="Navigation">
+        <button class="nav__open" type="button" aria-label="Open menu" aria-expanded="false" aria-controls="nav-panel">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 7.5h16v1.5H4z"/><path d="M4 15h16v1.5H4z"/></svg>
+        </button>
+        <div class="nav__panel" id="nav-panel">
+          <button class="nav__close" type="button" aria-label="Close menu">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="m13.06 12 6.47-6.47-1.06-1.06L12 10.94 5.53 4.47 4.47 5.53 10.94 12l-6.47 6.47 1.06 1.06L12 13.06l6.47 6.47 1.06-1.06L13.06 12Z"/></svg>
+          </button>
+          <ul class="nav__list">
+            <li><a href="./" aria-current="page">me</a></li>
+            <li><a href="publications/">Publications</a></li>
+            <li><a href="teaching/">Teaching</a></li>
+            <li><a href="resources/">Resources</a></li>
+            <li><a href="tadaa/"><img src="assets/img/tadaa-logo.png" alt="Tadaa"></a></li>
+            <li><a href="contact/">?</a></li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+
+    <!-- Hero -->
+    <section class="hero">
+      <div class="hero__inner">
+        <p class="hero__hello typewriter highlighted">Hello there.</p>
+        <p class="hero__intro">I am Irene, a Researcher and Interaction Designer.</p>
+      </div>
+    </section>
+
+    <div class="scroll-arrow-wrap">
+      <div class="container">
+        <svg class="scroll-arrow" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+          <path d="M18 15l-6 6-6-6"/>
+          <path d="M12 3v12"/>
+        </svg>
+      </div>
+    </div>
+
+    <!-- About -->
+    <section class="gutter">
+      <div class="container bio flow">
+        <p>I am currently a PhD student and a teaching assistant at the Faculty of Informatics of Università della Svizzera italiana (USI).</p>
+        <p>In my research project, titled <img class="inline-logo" src="assets/img/tadaa-logo.png" style="width: 60px" alt="Tadaa">, I explore how children can become active participants in discussions about technology, society, and equity. Through participatory design activities focused on generative AI and gender stereotypes, my research investigates how children’s perspectives, alongside those of parents and researchers, can help shape more inclusive and equitable technological futures.</p>
+        <p>I love typography design, old books, history podcasts, and my three adopted sloths — Luiza, Croissant and Jack.</p>
+        <p>If I am not obsessing over my latest read, you’ll find me pouring resources into my genealogy tree updates, blasting music at a considerably high volume, and pretending that my work will matter one day.</p>
+      </div>
+
+      <!-- Photo carousels: to add a photo, copy one <div class="carousel__slide"> line -->
+      <div class="carousel">
+        <div class="carousel__track" data-direction="forward">
+          <div class="carousel__slide"><img src="assets/img/about/photo-1.png" alt=""></div>
+          <div class="carousel__slide"><img src="assets/img/about/photo-2.png" alt=""></div>
+          <div class="carousel__slide"><img src="assets/img/about/photo-3.png" alt=""></div>
+          <div class="carousel__slide"><img src="assets/img/about/photo-4.png" alt=""></div>
+          <div class="carousel__slide"><img src="assets/img/about/photo-5.png" alt=""></div>
+        </div>
+        <div class="carousel__track" data-direction="backward">
+          <div class="carousel__slide"><img src="assets/img/about/photo-6.png" alt=""></div>
+          <div class="carousel__slide"><img src="assets/img/about/photo-7.png" alt=""></div>
+          <div class="carousel__slide"><img src="assets/img/about/photo-8.png" alt=""></div>
+          <div class="carousel__slide"><img src="assets/img/about/photo-9.png" alt=""></div>
+          <div class="carousel__slide"><img src="assets/img/about/photo-10.png" alt=""></div>
+        </div>
+      </div>
+
+      <!-- CV button -->
+      <div class="cta">
+        <div class="wave">
+          <svg class="wave__line wave__line--forward" viewBox="0 0 100 20" aria-hidden="true"><path d="M0,10 Q10,0 20,10 T40,10 T60,10 T80,10 T100,10"/></svg>
+          <a class="wave__button" href="assets/files/CV.pdf">Look at the CV</a>
+          <svg class="wave__line wave__line--back" viewBox="0 0 100 20" aria-hidden="true"><path d="M0,10 Q10,0 20,10 T40,10 T60,10 T80,10 T100,10"/></svg>
+        </div>
+      </div>
+    </section>
+
+  </main>
+</body>
+</html>

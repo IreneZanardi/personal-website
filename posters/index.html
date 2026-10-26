@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Posters – irenezanardi.com</title>
+  <meta name="description" content="Research posters by Irene Zanardi.">
+  <link rel="icon" href="../assets/img/favicon-32.png" sizes="32x32">
+  <link rel="icon" href="../assets/img/favicon-192.png" sizes="192x192">
+  <link rel="apple-touch-icon" href="../assets/img/apple-touch-icon.png">
+  <link rel="stylesheet" href="../assets/css/style.css">
+  <script src="../assets/js/main.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <!-- ===== Header (same on every page) ===== -->
+  <header class="site-header">
+    <div class="site-header__inner">
+      <a class="site-logo" href="../"><img src="../assets/img/logo.png" width="40" height="20" alt="irenezanardi.com"></a>
+      <nav class="nav" aria-label="Navigation">
+        <button class="nav__open" type="button" aria-label="Open menu" aria-expanded="false" aria-controls="nav-panel">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 7.5h16v1.5H4z"/><path d="M4 15h16v1.5H4z"/></svg>
+        </button>
+        <div class="nav__panel" id="nav-panel">
+          <button class="nav__close" type="button" aria-label="Close menu">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="m13.06 12 6.47-6.47-1.06-1.06L12 10.94 5.53 4.47 4.47 5.53 10.94 12l-6.47 6.47 1.06 1.06L12 13.06l6.47 6.47 1.06-1.06L13.06 12Z"/></svg>
+          </button>
+          <ul class="nav__list">
+            <li><a href="../">me</a></li>
+            <li><a href="../publications/">Publications</a></li>
+            <li><a href="../teaching/">Teaching</a></li>
+            <li><a href="../resources/">Resources</a></li>
+            <li><a href="../tadaa/"><img src="../assets/img/tadaa-logo.png" alt="Tadaa"></a></li>
+            <li><a href="../contact/">?</a></li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <div class="page-title">
+      <h1>Posters</h1>
+    </div>
+
+    <section class="band band--white">
+      <div class="poster-gallery" data-poster-gallery>
+        <!--
+          HOW TO EDIT THE POSTERS
+          Each <li class="poster"> is one poster. The gallery (thumbnails,
+          big preview, previous/next and full-screen view) is built from this
+          list automatically, in this order.
+
+          - data-thumb  = small SQUARE thumbnail for the top strip
+                          (assets/img/posters/thumbs/, e.g. 400 x 400 px).
+                          The numbered .svg files are placeholders: replace
+                          them with your own images and update the name here,
+                          e.g. thumbs/chi-2026.jpg
+          - data-full   = high-resolution image opened in full screen
+          - src         = image shown in the gallery (about 1024 px tall is enough)
+          - poster__title / poster__venue / poster__desc = text under the gallery
+
+          To add a poster: put the three images in assets/img/posters/thumbs/,
+          assets/img/posters/ and assets/img/posters/full/, then copy a whole
+          <li> ... </li> block.
+        -->
+        <ol class="poster-list">
+          <li class="poster"
+              data-thumb="../assets/img/posters/thumbs/chi-2026.svg"
+              data-full="../assets/img/posters/full/chi-2026.png">
+            <img src="../assets/img/posters/chi-2026.png" width="725" height="1024" alt="Poster presented at CHI 2026">
+            <div class="poster__caption">
+              <h2 class="poster__title">Poster title</h2>
+              <p class="poster__venue">CHI 2026</p>
+              <p class="poster__desc">Short description of the poster. Two lines are enough to say what the study is about and what you found.</p>
+            </div>
+          </li>
+
+          <li class="poster"
+              data-thumb="../assets/img/posters/thumbs/dis-2026.svg"
+              data-full="../assets/img/posters/full/dis-2026.png">
+            <img src="../assets/img/posters/dis-2026.png" width="722" height="1024" alt="Poster presented at DIS 2026" loading="lazy">
+            <div class="poster__caption">
+              <h2 class="poster__title">Poster title</h2>
+              <p class="poster__venue">DIS 2026</p>
+              <p class="poster__desc">Short description of the poster. Two lines are enough to say what the study is about and what you found.</p>
+            </div>
+          </li>
+
+          <li class="poster"
+              data-thumb="../assets/img/posters/thumbs/womencourage-2024.svg"
+              data-full="../assets/img/posters/full/womencourage-2024.png">
+            <img src="../assets/img/posters/womencourage-2024.png" width="723" height="1024" alt="Poster presented at ACM womENcourage 2024" loading="lazy">
+            <div class="poster__caption">
+              <h2 class="poster__title">Poster title</h2>
+              <p class="poster__venue">ACM womENcourage 2024</p>
+              <p class="poster__desc">Short description of the poster. Two lines are enough to say what the study is about and what you found.</p>
+            </div>
+          </li>
+
+          <li class="poster"
+              data-thumb="../assets/img/posters/thumbs/womencourage-2023-1.svg"
+              data-full="../assets/img/posters/full/womencourage-2023-1.png">
+            <img src="../assets/img/posters/womencourage-2023-1.png" width="724" height="1024" alt="Poster presented at ACM womENcourage 2023" loading="lazy">
+            <div class="poster__caption">
+              <h2 class="poster__title">Poster title</h2>
+              <p class="poster__venue">ACM womENcourage 2023</p>
+              <p class="poster__desc">Short description of the poster. Two lines are enough to say what the study is about and what you found.</p>
+            </div>
+          </li>
+
+          <li class="poster"
+              data-thumb="../assets/img/posters/thumbs/womencourage-2023-2.svg"
+              data-full="../assets/img/posters/full/womencourage-2023-2.png">
+            <img src="../assets/img/posters/womencourage-2023-2.png" width="724" height="1024" alt="Poster presented at ACM womENcourage 2023" loading="lazy">
+            <div class="poster__caption">
+              <h2 class="poster__title">Poster title</h2>
+              <p class="poster__venue">ACM womENcourage 2023</p>
+              <p class="poster__desc">Short description of the poster. Two lines are enough to say what the study is about and what you found.</p>
+            </div>
+          </li>
+
+          <li class="poster"
+              data-thumb="../assets/img/posters/thumbs/usi-sts-2023.svg"
+              data-full="../assets/img/posters/full/usi-sts-2023.png">
+            <img src="../assets/img/posters/usi-sts-2023.png" width="1024" height="724" alt="Research poster, USI STS 2023" loading="lazy">
+            <div class="poster__caption">
+              <h2 class="poster__title">Poster title</h2>
+              <p class="poster__venue">USI STS 2023</p>
+              <p class="poster__desc">Short description of the poster. Two lines are enough to say what the study is about and what you found.</p>
+            </div>
+          </li>
+
+          <li class="poster"
+              data-thumb="../assets/img/posters/thumbs/usi-sts-2022.svg"
+              data-full="../assets/img/posters/full/usi-sts-2022.png">
+            <img src="../assets/img/posters/usi-sts-2022.png" width="724" height="1024" alt="Research poster, USI STS 2022" loading="lazy">
+            <div class="poster__caption">
+              <h2 class="poster__title">Poster title</h2>
+              <p class="poster__venue">USI STS 2022</p>
+              <p class="poster__desc">Short description of the poster. Two lines are enough to say what the study is about and what you found.</p>
+            </div>
+          </li>
+        </ol>
+      </div>
+    </section>
+  </main>
+</body>
+</html>
