@@ -1,6 +1,29 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="400" height="400" viewBox="0 0 400 400">
-  <rect width="400" height="400" fill="#ececec"/>
-  <rect x="12" y="12" width="376" height="376" fill="none" stroke="#b5b5b5" stroke-width="4" stroke-dasharray="14 10"/>
-  <text x="200" y="215" text-anchor="middle" font-family="monospace" font-size="120" font-weight="700" fill="#999">01</text>
-  <text x="200" y="290" text-anchor="middle" font-family="monospace" font-size="30" fill="#aaa">thumbnail</text>
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 400 400">
+  <!-- Generator: Adobe Illustrator 29.8.2, SVG Export Plug-In . SVG Version: 2.1.1 Build 3)  -->
+  <defs>
+    <style>
+      .st0 {
+        fill: #fff;
+      }
+
+      .st1 {
+        fill: #fce8f1;
+      }
+
+      .st2 {
+        fill: #c3e1be;
+      }
+
+      .st3 {
+        fill: #231f20;
+      }
+    </style>
+  </defs>
+  <rect class="st1" x="1.2" y=".8" width="398.8" height="399.2"/>
+  <path class="st2" d="M401.2,209.9c-62.2-9.4-130-14.6-201.1-14.6S61.9,200.4,0,209.7v190.3h401.2v-190.1Z"/>
+  <circle class="st0" cx="71" cy="297.6" r="44"/>
+  <circle class="st3" cx="71" cy="308.4" r="33.2"/>
+  <circle class="st0" cx="329.9" cy="297.6" r="44"/>
+  <circle class="st3" cx="329.9" cy="308.4" r="33.2"/>
 </svg>
